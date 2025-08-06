@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+body{
+  margin:0px;
+  font-family:arial, Sans-Serif;
+  font-size:2vw;
+}
+header{
+  position:relative;
+  background-color:black;
+  color:white;
+  text-align:center;
+  margin:0px;
+  padding:0px;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+header h1{
+  font-size:8vw;
+  margin:0px;
+  font-family:"Passion One";
+  font-variant:small-caps;
+}
+a{
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+}
+a:hover{
+  text-decoration:underline;
+}
+header p{
+  margin-top:0px;
+  line-height:2em;
+}
+main p{
+  font-family:"Sriracha";
+  padding-left:20px;
+  font-size:2.3vw;
+  padding-top:2vh;
+}
+div{
+  color:white;
+  background-color:darkgray;
+  padding-top:10vh;
+  padding-bottom:10vh; 
+  background-position:center center;
+  background-size:cover;
+  background-attachment:fixed;
+}
+div p{
+  margin-left:15px;
+  padding:5px;
+  background-color:#545454a8;
+  width:40vw;
+  border-radius:10px;
+}
+div#flor{
+  background-image:url("imagens/background001.jpg");
+}
+div#livro{
+  background-image:url("imagens/background002.jpg");
+}
+footer{
+  background-color:black;
+  color:white;
+  text-align:center;
+  margin-bottom:0px;
+}
+footer p{
+  margin-bottom:0px;
+}
